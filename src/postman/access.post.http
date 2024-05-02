@@ -1,7 +1,8 @@
-@url_dev = http://localhost:3056/v1/api
+@url_dev = http://localhost:3056/v1/api/
 ### SignUp
 POST {{url_dev}}/shop/signup
 Content-Type: application/json
+x-api-key: b0e2f510830f07d843ef952cf04af60a4b439a31353a1a04e54f9e0bc852084ff566a985e3d5773a4e3d995615dde993c6f22058198ee4b0ae03f3348ee563f4
 
 {
     "name": "Shop DAT",
