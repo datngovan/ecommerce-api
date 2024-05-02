@@ -1,9 +1,9 @@
 "use strict";
 
 const mongoose = require("mongoose");
-const {
-  db: { host, name, port },
-} = require("../configs/config.mongodb");
+// const {
+//   db: { host, name, port },
+// } = require("../configs/config.mongodb");
 const connectStr = `mongodb+srv://datngo:datngo123@cluster0.zkx2xob.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 class Database {
